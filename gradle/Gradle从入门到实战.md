@@ -1,3 +1,6 @@
+#[Android 必备而又容易忽视的知识 Gradle的高级用法](http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650823843&idx=1&sn=b37cdf30f2e1938b0ac88cf4fc1eb331&chksm=80b7883db7c0012bfd66cefc3669f25d3ebda8b840b592d7c7d439d0e730061735ecdebf0de6&mpshare=1&scene=23&srcid=0823Y5GfZRh2jAIeVbNjCxjR#rd)
+
+
 #1 [Groovy基础](http://mp.weixin.qq.com/s?__biz=MzIwMTAzMTMxMg==&mid=2649492338&idx=1&sn=49cb619fb057720db505b7c3b8f894e8&chksm=8eec808db99b099b6b0bc5e983fc10df48a085a78ca935593737ec9d76b373188e20cf1042d9&mpshare=1&scene=23&srcid=0102bhL2L65FUooI49vsTW7v#rd)
 
 #2 全面理解Gradle
