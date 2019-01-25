@@ -1,0 +1,34 @@
+
+对话框样式布局：
+1 透明度点击消失采用最外层ppadding。
+2 里面元素设置click=true，防止事件向下传递。
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/close1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="134dp"
+    android:paddingBottom="134dp">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_bg_dialog_add_cart"
+        android:clickable="true"
+        android:orientation="vertical">
+
+       
+    </LinearLayout>
+
+</FrameLayout>
+
+
+2  多个fragemnt在一起重叠，不替换操作会出现事件向看不见的fragment传递，采用root元素click=true
+
+3  嵌套RECYCLEview  的item元素收缩和折叠显示，会出现item抖动。可以嵌套item设置事件拦截销毁
+
+4 ActivityGroup实现底部tab效果，里面单activity+fragment架构实现每个页面有tab效果
+
+  里面的activity需要共享userid和签名文件或者其他apk签名不一样，但需要指定activity支持多进程或者指定启动进程名称
